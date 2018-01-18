@@ -1,0 +1,24 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly SmardDashboard, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class SmartDashboard.Dashboard: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed
+  Events:
+    System.Action`2[System.String,System.String] OnUpdated: 
+  Methods:
+    add_OnUpdated(Action`2): PrivateScope, Public, Static, HideBySig, SpecialName
+    remove_OnUpdated(Action`2): PrivateScope, Public, Static, HideBySig, SpecialName
+    Run(Int32, RobotType): PrivateScope, Public, Static, HideBySig
+    Close(): PrivateScope, Public, Static, HideBySig
+    Set(String, String): PrivateScope, Public, Static, HideBySig
+    Get(String): PrivateScope, Public, Static, HideBySig
+    ContainsKey(String): PrivateScope, Public, Static, HideBySig
+Struct SmartDashboard.RobotType: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    SmartDashboard.RobotType cRIO = 0 : Public, Static, Literal, HasDefault
+    SmartDashboard.RobotType roboRIO = 1 : Public, Static, Literal, HasDefault

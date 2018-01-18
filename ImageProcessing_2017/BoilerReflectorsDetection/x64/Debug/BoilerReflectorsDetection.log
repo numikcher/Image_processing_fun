@@ -1,0 +1,15 @@
+﻿  Process.cpp
+c:\frc2017\drive\imageprocessing_2017\boilerreflectorsdetection\process.cpp(175): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\frc2017\drive\imageprocessing_2017\boilerreflectorsdetection\process.cpp(177): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\frc2017\drive\imageprocessing_2017\boilerreflectorsdetection\process.cpp(192): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\frc2017\drive\imageprocessing_2017\boilerreflectorsdetection\process.cpp(193): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\frc2017\drive\imageprocessing_2017\boilerreflectorsdetection\process.cpp(195): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\frc2017\drive\imageprocessing_2017\boilerreflectorsdetection\process.cpp(139): warning C4101: 'area_ratio': unreferenced local variable
+c:\frc2017\drive\imageprocessing_2017\boilerreflectorsdetection\process.cpp(252): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+c:\frc2017\drive\imageprocessing_2017\boilerreflectorsdetection\process.cpp(259): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\frc2017\drive\imageprocessing_2017\boilerreflectorsdetection\process.cpp(319): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  Source.cpp
+  BoilerReflectorsDetection.vcxproj -> C:\frc2017\Drive\ImageProcessing_2017\x64\Debug\BoilerReflectorsDetection.exe
+  BoilerReflectorsDetection.vcxproj -> C:\frc2017\Drive\ImageProcessing_2017\x64\Debug\BoilerReflectorsDetection.pdb (Full PDB)
